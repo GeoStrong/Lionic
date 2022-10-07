@@ -445,6 +445,26 @@ body {
     border-radius: 50px;
 }
 
+.form-textarea {
+    width: 520px;
+    height: 139px;
+    padding-top: 15px;
+    padding-bottom: 95px;
+    padding-left: 28px;
+    resize: none;
+    opacity: 0.6;
+    border: 1px solid #DADADA;
+    border-radius: 20px;
+}
+
+.form-input:not(:nth-child(2n)) {
+    margin-right: 19px;
+}
+
+.form-input:first-child {
+    margin-bottom: 19px;
+}
+
 .footer {
     padding: 42px 0;
 }
