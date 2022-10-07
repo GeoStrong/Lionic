@@ -410,6 +410,41 @@ body {
     color: #787878;
 }
 
+.join-us-title {
+    margin-bottom: 22px;
+    text-align: center;
+}
+
+.join-us-descr {
+    text-align: center;
+}
+
+.form-input {
+    width: 251px;
+    height: 60px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 28px;
+    opacity: 0.6;
+    border: 1px solid #dadada;
+    border-radius: 50px;
+    font-size: 16px;
+    line-height: 180%;
+    color: #787878;
+
+}
+
+.form-select {
+    width: 251px;
+    height: 60px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 28px;
+    opacity: 0.6;
+    border: 1px solid #dadada;
+    border-radius: 50px;
+}
+
 .footer {
     padding: 42px 0;
 }
