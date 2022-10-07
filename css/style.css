@@ -410,6 +410,10 @@ body {
     color: #787878;
 }
 
+.join-us {
+    border-bottom: 1px solid #dadada;
+}
+
 .join-us-title {
     margin-bottom: 22px;
     text-align: center;
@@ -419,12 +423,31 @@ body {
     text-align: center;
 }
 
+.form {
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+.form-top {
+    justify-content: space-between;
+    margin-bottom: 19px;
+}
+
+.form-left {
+    width: 49%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.form-right {
+    width: 49%;
+}
+
 .form-input {
     width: 251px;
     height: 60px;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    padding-left: 28px;
+    padding: 16px 28px;
     opacity: 0.6;
     border: 1px solid #dadada;
     border-radius: 50px;
@@ -437,32 +460,56 @@ body {
 .form-select {
     width: 251px;
     height: 60px;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    padding-left: 28px;
+    padding: 16px 28px;
     opacity: 0.6;
     border: 1px solid #dadada;
     border-radius: 50px;
 }
 
 .form-textarea {
-    width: 520px;
-    height: 139px;
-    padding-top: 15px;
-    padding-bottom: 95px;
-    padding-left: 28px;
+    width: 100%;
+    height: 100%;
+    padding: 16px 28px;
     resize: none;
     opacity: 0.6;
     border: 1px solid #DADADA;
     border-radius: 20px;
 }
 
-.form-input:not(:nth-child(2n)) {
-    margin-right: 19px;
-}
-
 .form-input:first-child {
     margin-bottom: 19px;
+}
+
+.form-bottom {
+    justify-content: flex-end;
+}
+
+.form-wrapper {
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-btn {
+    min-width: 230px;
+    border-radius: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 9px;
+}
+
+.form-check {
+    font-size: 12px;
+    line-height: 16px;
+    color: #787878;
+}
+
+.form-check input {
+    margin-right: 8px;
+}
+
+.form-check a {
+    text-decoration-line: underline;
+    color: #3172B9;
 }
 
 .footer {
